@@ -28,7 +28,7 @@ const About = () => {
         <div className={`mb-8 p-6 rounded-lg ${
           isDarkMode ? 'bg-slate-800' : 'bg-white'
         } shadow-sm`}>
-          <h1 className="text-2xl sm:text-3xl font-bold mb-4">About PrivateKeys.pw</h1>
+          <h1 className="text-2xl sm:text-3xl font-bold mb-4">About Core Scientific wallet-search</h1>
           <p className="text-sm sm:text-base opacity-80">
             Learn how our platform works and get answers to frequently asked questions.
           </p>
@@ -42,9 +42,9 @@ const About = () => {
           
           <div className="space-y-6">
             <div>
-              <h3 className="text-lg font-semibold mb-2">What is PrivateKeys.pw?</h3>
+              <h3 className="text-lg font-semibold mb-2">What is Core Scientific wallet-search?</h3>
               <p className="text-sm sm:text-base opacity-80">
-                PrivateKeys.pw is a platform that scans for vulnerable cryptocurrency wallets. 
+                Core Scientific wallet-search is a platform that scans for vulnerable cryptocurrency wallets. 
                 We search for wallets with weak or exposed private keys and seed phrases 
                 that might be at risk.
               </p>
@@ -124,7 +124,7 @@ const About = () => {
           isDarkMode ? 'bg-slate-700' : 'bg-gray-50'
         }`}>
           <p className="text-xs sm:text-sm opacity-70 text-center">
-            Disclaimer: PrivateKeys.pw is provided for educational and security research purposes only. 
+            Disclaimer: Core Scientific wallet-search is provided for educational and security research purposes only. 
             Always use cryptocurrency services responsibly and ethically.
           </p>
         </div>

@@ -1,6 +1,6 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect } from 'react';
 import DashboardLayout from '../../components/admin/DashboardLayout';
-import { Plus, Trash2, Power, PowerOff, Search, Edit, Upload, X } from 'lucide-react';
+import { Plus, Trash2, Power, PowerOff, Search, Edit, X } from 'lucide-react';
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "../../components/ui/dialog";
 import { API_BASE_URL } from '../../config';
 
@@ -15,16 +15,7 @@ const SUPPORTED_COINS = [
  { symbol: 'DOGE', name: 'Dogecoin' },
 ];
 
-const CoinAmountDisplay = ({ coin, prices }) => {
-  const price = prices[coin.symbol]?.USD || 0;
-  const usdValue = price * parseFloat(coin.amount);
-  
-  return (
-    <div className="text-sm text-gray-500 mt-1">
-      ≈ ${usdValue.toFixed(2)} USD
-    </div>
-  );
-};
+
 
 const LicenseKeys = () => {
  const [licenses, setLicenses] = useState([]);
