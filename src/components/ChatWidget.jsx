@@ -5,7 +5,7 @@ const ChatWidget = () => {
   useEffect(() => {
     // Initialize Chaport with queue
     window.chaportConfig = {
-      appId: '6798f77c73a4ef82623f009a'
+      appId: '67c15f272bcd7cfe08e4db05'
     };
 
     const initChat = () => {
